@@ -1,0 +1,522 @@
+body { 
+ background-color: grey;
+}
+
+.header { 
+    display: flex;
+    height: 55px;
+    background-color: black;
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.span { 
+    width: 80%;
+}
+
+.button-type-white { 
+ 
+    position: relative;
+    margin-left: 10px;
+    margin-top: -10px;
+    border-radius: 38px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.button-type-white:hover { 
+    background-color: grey;
+}
+
+.button-type-white:active { 
+    background-color: aliceblue;
+}
+
+#btnLog { 
+    height: 24px;
+    width: 128px;
+    padding: 10px;
+}
+
+#btnReg { 
+    height: 24px;
+    width: 158px;
+    padding: 10px;
+}
+
+.header-items { 
+    position: relative;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-decoration: none;
+}
+
+#company-name { 
+    font-size: 22px;
+    width: 300px;
+    padding: 0px 10px;
+}
+#main { 
+    width: 70px;
+    padding: 0px 20px;
+}
+#about-us { 
+    width: 70px;
+    padding: 0px 10px;
+}
+
+.container { 
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+   
+}
+
+.card { 
+    position: relative;
+    height: 620px;
+    width: 470px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    top: 100px;
+
+    margin: 10px;
+}
+
+.card-image { 
+    position: relative;
+    height: 360px;
+    width: 447px;
+    border-radius: 35px;
+    background-color: grey;
+    left: 12px;
+    top: 12px;
+}
+
+.button-buy { 
+    position: relative;
+    height: 53px;
+    width: 261px;
+    border-radius: 35px;
+    border-style: none;
+    left: 100px;
+    top: 170px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #59D42D;
+}
+
+.button-buy:hover { 
+    background-color: #53a834;
+}
+
+.button-buy:active { 
+    background-color: #59D42D;
+}
+
+.list-platforms { 
+    list-style-type: circle;
+}
+
+.game-name {
+    position: relative;
+    top: 20px;
+    left: 110px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.platform-tag { 
+    position: relative;
+    left: 115px;
+}
+
+.steam-description { 
+    position: relative;
+    left: 150px;
+}
+
+.button-buy  { 
+    position: relative;
+    top: -10px;
+ 
+}
+
+.table-platforms   { 
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 115px;
+}
+
+.container-auth-forms { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#register { 
+    display: none;
+}
+
+#login { 
+    display: none;
+}
+
+.input-form { 
+    width: 400px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px; 
+    margin-bottom: 5px;
+}
+
+.button-form  { 
+
+ position: relative;
+ margin-left: 10px;
+ margin-top: -10px;
+ border-radius: 38px;
+ border-style: none;
+ font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: black;
+ text-decoration: none;
+ background-color: aliceblue;
+ text-align: center;
+ height: 50px;
+}
+
+.button-form:hover { 
+ background-color: grey;
+}
+
+.button-form:active { 
+ background-color: aliceblue;
+}
+
+#exit-button-reg { 
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+#exit-button-log { 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+@media (min-width: 996px) and (max-width: 2560px) { 
+    .form-auth { 
+   
+        position: absolute;
+        background-color: rgb(49, 47, 47);
+        max-width: 600px;
+        height: 600px;
+        border-radius: 42px;
+        margin-top: 100px;
+        margin-left: -1050px;
+    }
+    
+    
+.main-text { 
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    margin-left: 200px;
+}
+
+#main-text-log { 
+margin-left: 255px;
+}
+
+  #input-login-log { 
+    margin-top: 50px;
+    margin-left: 95px;
+  }
+  #input-password-log { 
+    margin-top: 20px;
+    margin-left: 95px;
+  }
+    #input-login { 
+        margin-left: 95px;
+    }
+    #input-mail { 
+        margin-left: 95px;
+    }
+    #input-password { 
+        margin-left: 95px;
+    }
+    #input-repeat-password { 
+        margin-left: 95px;
+    }
+    #btn-register { 
+        width: 300px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    #btn-login { 
+        width: 250px;
+        margin-left: 175px;
+        margin-top: 20px;
+    }
+
+    #btn-login-log { 
+        width: 250px;
+        margin-left: 175px;
+        margin-top: 20px;
+    }
+
+    #btn-register-log { 
+        width: 300px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:995px) and (max-width: 1485px) {
+    .form-auth { 
+   
+        position: absolute;
+        background-color: rgb(49, 47, 47);
+        max-width: 400px;
+        height: 400px;
+        border-radius: 42px;
+        margin-top: 100px;
+        margin-left: -450px;
+    }
+
+    .main-text { 
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        margin-left: 125px;
+    }
+
+         #main-text-log { 
+        margin-left: 170px;
+        }
+        
+          #input-login-log { 
+            width: 300px;
+            margin-top: 30px;
+            margin-left: 45px;
+          }
+          #input-password-log { 
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 45px;
+          }
+
+    #input-login { 
+    width: 300px;
+    margin-left: 45px;
+
+    }
+    #input-mail { 
+        width: 300px;
+        margin-left: 45px;
+    }
+    #input-password { 
+        width: 300px;
+        margin-left: 45px;
+    }
+    #input-repeat-password { 
+        width: 300px;
+        margin-left: 45px;
+    }
+   
+    #btn-register { 
+        height: 35px;
+        width: 250px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+    #btn-login { 
+        height: 35px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #btn-login-log { 
+        height: 35px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #btn-register-log { 
+        height: 35px;
+        width: 250px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 700px) and (max-width: 994px) {
+    .form-auth { 
+   
+        position: absolute;
+        background-color: rgb(49, 47, 47);
+        max-width: 400px;
+        height: 400px;
+        border-radius: 42px;
+        margin-top: -1200px;
+        margin-left: -450px;
+    }
+
+    .main-text { 
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        margin-left: 125px;
+    }
+
+    #main-text-log { 
+        margin-left: 170px;
+        }
+        
+          #input-login-log { 
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 45px;
+          }
+          #input-password-log { 
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 45px;
+          }
+
+    #input-login { 
+        width: 290px;
+        margin-left: 50px;
+        }
+        #input-mail { 
+            width: 290px;
+            margin-left: 50px;
+        }
+        #input-password { 
+            width: 290px;
+            margin-left: 50px;
+        }
+        #input-repeat-password { 
+            width: 290px;
+            margin-left: 50px;
+        }
+
+        #btn-register { 
+            height: 35px;
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 20px;
+        }
+        #btn-login { 
+            height: 35px;
+            width: 200px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+
+        #btn-login-log { 
+            height: 35px;
+            width: 200px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+    
+        #btn-register-log { 
+            height: 35px;
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 20px;
+        }
+}
+
+@media (min-width: 400px) and (max-width: 699px) {
+    .form-auth { 
+   
+        position: absolute;
+        background-color: rgb(49, 47, 47);
+        max-width: 400px;
+        height: 400px;
+        border-radius: 42px;
+        margin-top: -1200px;
+        margin-left: -450px;
+    }
+
+    .main-text { 
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        margin-left: 125px;
+    }
+
+    #main-text-log { 
+        margin-left: 170px;
+        }
+        
+          #input-login-log { 
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 45px;
+          }
+          #input-password-log { 
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 45px;
+          }
+
+    #input-login { 
+        width: 290px;
+        margin-left: 50px;
+        }
+        #input-mail { 
+            width: 290px;
+            margin-left: 50px;
+        }
+        #input-password { 
+            width: 290px;
+            margin-left: 50px;
+        }
+        #input-repeat-password { 
+            width: 290px;
+            margin-left: 50px;
+        }
+
+        #btn-register { 
+            height: 35px;
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 20px;
+        }
+        #btn-login { 
+            height: 35px;
+            width: 200px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+
+        #btn-login-log { 
+            height: 35px;
+            width: 200px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+    
+        #btn-register-log { 
+            height: 35px;
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 20px;
+        }
+
+        
+}
